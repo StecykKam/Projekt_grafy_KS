@@ -253,7 +253,7 @@ int main()
     
     
 
-    string name_of_file_to_read = "test2.txt";  /// <------------ tutaj wpisujemy nazwe pliku txt , wazne aby node'y byly numerowane od 0...n
+    string name_of_file_to_read = "test1.txt";  /// <------------ tutaj wpisujemy nazwe pliku txt , wazne aby node'y byly numerowane od 0...n
 
     ifstream ins;
     ins.open(name_of_file_to_read); // nalezy upewnic sie czy odczytal dobrze
