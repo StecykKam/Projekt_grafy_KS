@@ -56,7 +56,12 @@ public:
         list_ofcolours.resize(size);
 
         table_of_predecessors_bellman_ford.resize(size);
-        table_of_predecessors_bellman_ford[0] = -1;  // nie ma poprzednika 0 wierzcholka,bo zaczynamy od niego
+        
+
+        for(int i=0;i<table_of_predecessors_bellman_ford.size();++i)
+        {
+           table_of_predecessors_bellman_ford[i] = -1;  /// inicjalizacja na brak poprzednikow
+        }
 
         for(auto &edge:edges)
         {
@@ -248,7 +253,7 @@ int main()
     
     
 
-    string name_of_file_to_read = "test1.txt";  /// <------------ tutaj wpisujemy nazwe pliku txt , wazne aby node'y byly numerowane od 0...n
+    string name_of_file_to_read = "test2.txt";  /// <------------ tutaj wpisujemy nazwe pliku txt , wazne aby node'y byly numerowane od 0...n
 
     ifstream ins;
     ins.open(name_of_file_to_read); // nalezy upewnic sie czy odczytal dobrze
