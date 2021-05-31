@@ -4,7 +4,7 @@ Repozytorium powstało na potrzeby projektu z  przedmiotu teorii grafów.
 
 Zasada użycia algorytmu:
 - Najwygodniej jest wykonać git clone  do folderu na swoim komputerze
-- Program wczytuje dane z pliku txt o następującym formacie: ( dwa testowe pliki są dołączony w folderze i jeden z nich ustawiony jako domyślny)
+- Program wczytuje dane z pliku txt o następującym formacie: ( dwa testowe pliki są dołączone w folderze i jeden z nich ustawiony jako domyślny)
 
 1) Należy zacząć od stworzenia pliku txt w obrębie katalogu Algorytm Bellmana_Forda (tam gdzie main.cpp) i wpisania w pierwszej linijce liczbę node'ów naszego grafu
 
